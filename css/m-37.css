@@ -1,0 +1,229 @@
+.f-contents {
+    background: #F5F7FD;
+  }
+
+.f-content{
+  background-color: #FFFFFF;
+  box-shadow: 0 2px 4px 0 #00000012;
+  margin-top: 16px;
+  padding-top: 16px;
+  padding-bottom: 12px;
+  border-radius: 6px;
+}
+
+
+.f-content .p-payment{
+  color: #1A1E2B;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.f-content .p-billing{
+  color: #1A1E2B;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.f-content .p-visa{
+  color: #1A1E2B;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0 16px;
+}
+
+
+
+.f-content .p-cvv{
+  color: #1A1E2B;
+  font-size: 10px;
+  font-weight: 400;
+  margin: 10px 16px;
+}
+
+.f-content .cvv{
+  border: 1px solid #FDE5DB;
+  margin: 0px 16px;
+  width: 51px;
+  height: 31px;
+  padding: 5px 14px 6px 14px;
+  font-size: 14px;
+  color: #1A1E2B;
+  opacity: 30%;
+  outline: none;
+}
+
+.f-content .p-add-card{
+  color: #1A1E2B;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+.f-content .p-money{
+  color: #4169E2;
+  font-size: 10px;
+  font-weight: 700;
+  margin-top: 2px;
+
+}
+
+.f-content .p-balance{
+  font-size: 16px;
+  font-weight: 400;
+  color: #1A1E2B;
+  /* margin: 16px 16px; */
+
+}
+
+.f-content .p-balance span{
+  color: #4169E2;
+  font-size: 16px;
+  font-weight: 700;
+
+}
+
+  .payment-card {
+    background-color: #F5F7FD;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+
+  }
+
+  hr.solid {
+    border-top: 1px solid #3c3c4329;
+    margin-top: 16px;
+  }
+  .cvv-card {
+    margin: 0 16px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .visa-photo {
+    height: 27px;
+    width: 44px;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    color: transparent;
+    /* transition: all 0.3s ease; */
+    /* margin-left: 10px; */
+  }
+  
+
+  .cvv-photo {
+    border-radius: 10%;
+    height: 16px;
+    width: 24px;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    color: transparent;
+    /* transition: all 0.3s ease; */
+    margin-right: 20px;
+  }
+  
+  .visa-card {
+    display: flex;
+    align-items: center;
+  }
+
+
+/* button.close span {
+    color: #1a1e2b;
+    margin-top: -35px !important;
+    margin-right: 20px !important;
+    width: 11.41px;
+    height: 19.89px;
+    font-size: 26px;
+  } */
+
+  .btn-pay-green{
+    background-color: #46BE00 ;
+    box-shadow: 0 2px 4px 0 #00000012;
+    color: #fff !important;
+    border: none !important;
+    border-radius: 24px !important;
+    padding: 16px 123px 15px 124px !important;
+    font-size: 12px !important;
+    font-weight: 700 !important;
+    margin-top: 268px;
+    letter-spacing: 2px !important;
+    margin-bottom: 24px ;
+  }
+
+
+  .btn-pay-green-2{
+    background-color: #46BE00 ;
+    box-shadow: 0 2px 4px 0 #00000012;
+    color: #fff !important;
+    border: none !important;
+    border-radius: 24px !important;
+    padding: 16px 123px 15px 124px !important;
+    font-size: 12px !important;
+    font-weight: 700 !important;
+    margin-top: 268px;
+
+    letter-spacing: 2px !important;
+    margin-bottom: 24px ;
+  }
+
+  .btn-pay-brown{
+    box-shadow: 0 2px 4px 0 #00000012;
+    color: #fff !important;
+    border: none !important;
+    border-radius: 24px !important;
+    padding: 16px 120px 15px 120px !important;
+    font-size: 12px !important;
+    font-weight: 700 !important;
+    letter-spacing: 2px !important;
+  }
+  
+
+  /* ##Device = Laptops, Desktops ##Screen = B/w 1025px to 1280px*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+     
+    
+  }
+  
+  /* ##Device = Tablets, Ipads (portrait)##Screen = B/w 768px to 1024px*/
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+  
+   
+    
+  }
+  
+  /* ##Device = Tablets, Ipads (landscape)##Screen = B/w 768px to 1024px*/
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+    
+  }
+  
+  /*  ##Device = Low Resolution Tablets, Mobiles (Landscape) ##Screen = B/w 481px to 767px*/
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+  
+   
+    
+  }
+  
+  /* ##Device = Most of the Smartphones Mobiles (Portrait)##Screen = B/w 320px to 479px*/
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+  
+    /* .navbar h2{
+    margin-left: -140px !important;
+  
+    } */
+
+  }
